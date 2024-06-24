@@ -1,0 +1,12 @@
+public class CurrencyConverter {
+
+    public static void main(String[] args) {
+        double amount = 1000;
+
+        System.out.println("Converting JOD to USD:");
+        convertJODtoUSD(amount);
+
+        System.out.println("Converting USD to JOD:");
+        convertUSDtoJOD(amount);
+    }
+}
