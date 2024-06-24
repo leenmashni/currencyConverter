@@ -1,0 +1,14 @@
+public class CurrencyConverter {
+
+    // Convert from JOD to USD
+    public static void convertJODtoUSD(double amount) {
+        double amount_USD = amount * 1.41;
+        System.out.println(amount + " JOD is equivalent to " + amount_USD + " USD");
+    }
+    public static void main(String[] args) {
+        double amount = 1000;
+
+        System.out.println("Converting JOD to USD:");
+        convertJODtoUSD(amount);
+    }
+}
